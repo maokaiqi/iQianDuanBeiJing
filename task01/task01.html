@@ -94,34 +94,57 @@
 		</tr>
 	</table>
 	<a href="#top">返回页头</a>
-	<dl>
-		<dt><h2>这里以后是个侧栏，这里是侧栏的标题</h2></dt>
-		<dd>
+	<div>
+		<h2>这里以后是个侧栏，这里是侧栏的标题</h2>
+		<div>
 			<h3>侧栏注册窗口标题</h3>
 			<form action="" method="get">
-				<p>请输入邮箱地址：<input type="text" value="这里是文本输入框"  onfocus="if(this.value=='这里是文本输入框'){this.value=''}" onblur="if(this.value==''){this.value='这里是文本输入框'}"/></p>
-				<p>邮箱地址请按格式输入</p>
-				<p>请输入密码<input type="password" value="这是一个文本输入框" />请重复输入密码<input type="password" value="这里是一个文本输入框"/></p>
-				<p>密码为6-16位英文数字</p>
-				
-					性别：<label for="male">男</label><input type="radio"  name="sex" id="male"/><label for="female">女</label><input type="radio" name="sex" id="female" />
-					城市：
+				<dl>
+					<dt>请输入邮箱地址</dt>
+					<dd>
+						<input type="text" value="这里是文本输入框"  onfocus="if(this.value=='这里是文本输入框'){this.value=''}" onblur="if(this.value==''){this.value='这里是文本输入框'}"/>
+						<p>邮箱地址请按格式输入</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						请输入密码
+					</dt>
+					<dd>
+						<input type="password" value="这是一个文本输入框" />请重复输入密码<input type="password" value="这里是一个文本输入框"/>
+					<p>密码为6-16位英文数字</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>性别</dt>
+					<dd>
+						<label for="male">男</label><input type="radio"  name="sex" id="male"/><label for="female">女</label><input type="radio" name="sex" id="female" />
+					</dd>
+				</dl>
+				<dl>
+					<dt>城市</dt>
+					<dd>
 						<select name="" id="">
 							<option value="beijing">北京</option>
 							<option value="shanghai">上海</option>
 							<option value="beijing">北京</option>
 							<option value="beijing">北京</option>
 						</select>
-					爱好：
-					<input type="checkbox" id="sport" /><label for="sport">运动</label><input type="checkbox" id="art" /><label for="art">艺术</label><input type="checkbox" id="science" /><label for="science">科学</label>
-					<textarea name="" id="" cols="30" rows="4" placeholder="这是一个多行输入框，请输入你的详细描述"></textarea>
-					
-						
-				<button>确认提交</button>
+					</dd>
+				 	
+				</dl>
+				<dl>
+					<dt>爱好</dt>
+					<dd>
+						<input type="checkbox" id="sport" /><label for="sport">运动</label><input type="checkbox" id="art" /><label for="art">艺术</label><input type="checkbox" id="science" /><label for="science">科学</label>
+					</dd>
+				</dl>
+				<textarea name="" id="" cols="30" rows="4" placeholder="这是一个多行输入框，请输入你的详细描述"></textarea>
+				<input type="submit" value="确认提交">
 
-			</form>
-		</dd>
-	</dl>
+				</form>
+		</div>
+	</div>
 	<p><a href="#top">版权所有㊣</a></p>
 </body>
 </html>
